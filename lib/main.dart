@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:helloworld/Buttons/button_widgets.dart';
+import 'package:helloworld/Text_Widget/Text_Widget.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,17 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ButtonsWidgets(),
+      home: Scaffold(
+        body: Column(
+          children: const [
+            Expanded(
+              child: SizedBox(
+                child: TextWidget(), // add widget here to test on main screen
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
