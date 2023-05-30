@@ -83,6 +83,32 @@ class ButtonsWidgets extends StatelessWidget {
               iconSize: 30,
               icon: const Icon(Icons.add),
             ),
+
+            const SizedBox(
+              height: 15,
+            ),
+
+            // Outlined,text and elevated buttons with icon
+            OutlinedButton.icon(
+                onPressed: () {},
+                icon: const Icon(Icons.save),
+                label: const Text("Elevated with Icon")),
+
+            const SizedBox(
+              height: 15,
+            ),
+            TextButton.icon(
+                onPressed: () {},
+                icon: const Icon(Icons.add),
+                label: const Text("Icon text button")),
+
+            const SizedBox(
+              height: 15,
+            ),
+            OutlinedButton.icon(
+                onPressed: () {},
+                icon: const Icon(Icons.delete),
+                label: const Text("Icon Outlined button")),
           ],
         ),
       ),
