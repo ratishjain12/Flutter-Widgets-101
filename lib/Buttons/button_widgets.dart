@@ -13,20 +13,20 @@ class ButtonsWidgets extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             OutlinedButton(
-              onPressed: () {}, // specifies what happens on a click of button
-              onLongPress:
-                  () {}, // specifies what happens on long press of button
+              onPressed: () {},
+              // specifies what happens on a click of button
+              onLongPress: () {},
+              // specifies what happens on long press of button
               style: OutlinedButton.styleFrom(
-                minimumSize: const Size(190,
-                    60), // first parameter for width and second parameter for height
-                side: const BorderSide(
-                    width: 3,
-                    color: Colors
-                        .deepOrangeAccent), //side method helps for defining
+                minimumSize: const Size(190, 60),
+                // first parameter for width and second parameter for height
+                side:
+                    const BorderSide(width: 3, color: Colors.deepOrangeAccent),
+                //side method helps for defining
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10)),
-                foregroundColor:
-                    Colors.white, // gives foreground colour to outlined button
+                foregroundColor: Colors.white,
+                // gives foreground colour to outlined button
                 backgroundColor: Colors.orange,
                 textStyle: const TextStyle(
                   fontSize: 20,

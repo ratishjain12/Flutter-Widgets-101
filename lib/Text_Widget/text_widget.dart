@@ -36,13 +36,15 @@ class TextWidget extends StatelessWidget {
         fontWeight: FontWeight.bold,
         color: Colors.deepOrange,
       ), // used to style the text
-      textAlign: TextAlign.center, // to align the text
-      maxLines: 2, // text widget can take maximum 2 lines
-      overflow: TextOverflow
-          .ellipsis, // if lines exceeds the limit, it trims and shows ...
+      textAlign: TextAlign.center,
+      // to align the text
+      maxLines: 2,
+      // text widget can take maximum 2 lines
+      overflow: TextOverflow.ellipsis,
+      // if lines exceeds the limit, it trims and shows ...
       textScaleFactor: 2.0, // scales the text based on the value specified
-      textDirection: TextDirection
-          .rtl, // defines text direction ie - rtl means right to left and ltr means left to right
+      textDirection: TextDirection.rtl,
+      // defines text direction ie - rtl means right to left and ltr means left to right
     );
   }
 }
