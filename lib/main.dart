@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:helloworld/Dismissible/dimissible_widget.dart';
+import 'package:helloworld/Gridview/gridview_widget.dart';
 import 'package:helloworld/Sliders/slider_widget.dart';
 
 void main() => runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(body: RangeSliderExample()),
+      home: GridViewBuilder(),
     );
   }
 }
