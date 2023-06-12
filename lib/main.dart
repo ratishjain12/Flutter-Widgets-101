@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:helloworld/Dismissible/dimissible_widget.dart';
-import 'package:helloworld/Gridview/gridview_widget.dart';
-import 'package:helloworld/Sliders/slider_widget.dart';
+import 'package:helloworld/Wrap/wrap_widget.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: GridViewBuilder(),
+      home: Scaffold(body: WrapWidgetExample()),
     );
   }
 }
